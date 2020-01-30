@@ -1,0 +1,19 @@
+{
+  "name": "aplicacion",
+  "version": "1.0.0",
+  "description": "Trabajo MVC con Node.js",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "author": "Carlos Araujo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chokidar": "^3.3.1",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "swig": "^1.4.2"
+  }
+}
