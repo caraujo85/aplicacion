@@ -1,0 +1,170 @@
+h1{
+  color: #6E7E4F;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+  color: #6E7E4F;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+  color: #000000;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table, th, td {
+  border: 0.01em solid black;
+  text-align: left;
+  padding: 0.95em;
+}
+
+tr {
+  background-color: #F6F3F2;
+}
+
+th {
+  background-color: #DBD9D8;
+}
+
+label, pre {
+  font : .9em "typewriter", sans-serif;
+}
+
+a {  
+  font : 1em "typewriter", sans-serif;
+}
+
+a:link {
+  color:#0404B4;
+}
+a:hover{
+  background-color: greenyellow;
+}
+
+a.volver{
+  font-size:1em;
+  font-family: cursive;
+  color:#0101DF;  
+  font-weight: bold;
+  background-color: #ffffff;
+}
+
+a.volver::before{
+  content: "<<< ";
+}
+
+p {
+  color: black;
+  text-align: justify;
+  font-size: 1.1em;
+  font : .9em "typewriter", sans-serif;
+}
+
+p.marca {
+  color: black;
+  text-align: left;
+  font : 1.2em "typewriter", sans-serif;
+  width: auto;
+  margin: 1em 5em 1em 3em;
+}
+
+p.marcaPrimero {
+  color: black;
+  text-align: left;
+  font : 1.2em "typewriter", sans-serif;
+  width: auto;
+  margin: 1em 5em 1em 3em;
+}
+
+p.marcaPrimero::first-letter {
+  font-size: 2.5em;
+  color: #8A0808;
+}
+
+fieldset {
+	width:70em;
+	height:auto;
+	margin:5px 1px;
+	border-radius:0.625em 0.625em 0.625em 0.625em;
+	background:#F5F4F4;
+	box-shadow:0px 0px 0px 0px   #537c11;
+	color:#000000;
+	font-family:Tahoma;
+	font-size:14px;
+	padding-top:0.625em;
+}
+
+legend {
+	color: rgb(0, 0, 153); 
+	font-weight: bold; 
+  font-size: 1.5em;
+}
+
+section {
+  background-color: #fafafa;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 2px solid #ccc;
+  text-align: center;
+  position:relative;
+  width: auto;
+}
+
+article{
+  /* 16x0.625 = 10px */
+  width:auto;
+	height:auto;
+	margin:5px 2px;
+	border-radius:0.625em 0.625em 0.625em 0.625em;
+	background:#D8D8D8;
+	box-shadow:0px 0px 0px 0px   #537c11;
+	color:#000000;
+	font-family:Tahoma;
+	padding-top:0.625em;
+}
+
+.initial {
+  background-color: #fafafa;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 2px solid #ccc;
+  text-align: center;
+  position:relative;
+  width: 500px;
+}
+
+.format {
+  background-color: #fafafa;  
+  padding: 1rem;
+  border: 2px solid #ccc;
+  text-align: left;
+  width: 60.5em;
+}
+
+.existencias{
+  color:#04B404;
+}
+
+.agotado{
+  color:#B40404;
+}
+
+.imgDerecha {
+  margin: 1em 10em 1em 3em;
+  padding: 0.51rem;
+  float: right;
+  width: auto;
+  height: auto;
+}
+
+nav>ul {
+  list-style: circle;
+}
+
+#name:hover { 
+  background-color: skyblue;
+}
